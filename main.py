@@ -9,3 +9,6 @@ class myform(FlaskForm):
     serverName = StringField("Server Name")
     characterName = StringField("Character Name")
     
+@app.route("/")
+def index():
+    return "<h2>This page is blank for now.</h2>"
